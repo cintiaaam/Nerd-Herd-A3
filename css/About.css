@@ -1,0 +1,32 @@
+.intro-internal{
+	background: url("../img/bg_about.jpg") no-repeat center;
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	background-size: cover;
+
+}
+
+
+.mission_about{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.mission_about p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 60px;
+}
+
+.mission_about ul li{
+	font-family: georgia;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 1em;
+	padding-right: 60px;
+}
+
+
+

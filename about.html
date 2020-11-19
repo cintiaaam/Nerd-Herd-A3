@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mobius - About</title>
+	<link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="grid-4"> 
+				<img src="img/logo2.png" alt="Mobius Project">
+			</a>
+			<nav class="grid12 header_menu">
+				<ul>
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="about.html"> About </a></li>
+					<li><a href="products.html"> Products </a></li>
+					<li><a href="contactForm.html"> Contact </a ></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="intro">
+		<div class="container">
+			<h1>Mobius Project</h1>
+			<blockquote class="quote-external">
+				<p>Maths can be fun and easy to learn!</p>
+			</blockquote>
+			<a href="products.html" class="btn">Get a Quote</a>
+		</div>
+		
+	</section>
+	<section class="products container">
+		<h2 class="subtitle">Reviews</h2>
+		<ul class="products_list">
+
+			<li class="grid-1-3">
+				<div class="products_icons">
+				<img src="img/profile1.png" alt="Customer 1">
+				</div>
+				<h3>Jake and Angela</h3>
+				<p>"After we started with the Mobius project, Jake's grades are 10/10."</p>
+			</li>
+		
+
+			<li class="grid-1-3">
+				<div class="products_icons">
+				<img src="img/profile2.png" alt="Customer 2">
+				</div>
+				<h3>Edu and Monique</h3>
+				<p>"Edu loves the amazing range of games Mobius have".</p>
+			</li>
+
+			<li class="grid-1-3">
+				<div class="products_icons">
+				<img src="img/profile3.png" alt="Customer 3">
+				</div>
+				<h3>Sophie and Claire</h3>
+				<p>"Sophie now wants to be a maths teacher."</p>
+			</li>
+
+		</ul>
+		
+
+	</section>
+
+	<section class="portfolio">
+		<div class="container projects">
+			<h1>MoBi the Virtual Teacher - by Dhilrukshi Pathmanathan</h1>
+			<h2>The virtual teacher works primarily on five technologies; Machine Learning, Natural Language Processing (NLP) and Deep Learning.  The Mobi chatbot understands our users and can provide useful answers within the scope we define for it.  </h2>
+			<h2>Watson technologies</h2>
+			<p>Watson uses IBM's DeepQA software and the Apache UIMA (Unstructured Information Management Architecture) framework implementation. The artificial intelligence was written Java, C++, and Prolog, and runs on the SUSE Linux Enterprise Server 11 operating system using the Apache Hadoop framework to provide distributed computing. The system is workload-optimized, integrating massively parallel POWER7 processors and built on IBM's DeepQA technology. Watson employs a cluster of ninety IBM Power 750 servers, each of which uses a 3.5 GHz POWER7 eight-core processor, with four threads per core.  </p>
+			<p>In total, the system has 2,880 POWER7 processor threads and 16 terabytes of RAM. Watson can process 500 gigabytes, the equivalent of a million books, per second. The AI was initially developed to answer questions on the quiz show Jeopardy! In 2011, it won the first place prize of $1 million while competing against champions Brad Rutter and Ken Jennings (IBM Watson, 2020). </p>
+			<img src="img/bot1.jpeg" alt="Mobius">
+			<p><cite> IBM’s Watson winning American game show Jeapordy (IBM,2020) </cite></p>
+			<h2>Creating a Chatbot</h2>
+			<p>To use IBM’s AI Watson, I signed up for a free IBM Cloud Account and took a short IBM course on Coursera. To create a virtual assistant that has natural language processing, I used IBM’s Watson Assistant. I created an assistant named Mobius (Mobi).  </p>
+			<img src="img/bot2.jpeg" alt="Mobius">
+			<p><cite>IBM Watson Assistant on IBM Cloud (Watson Assistant, 2020).</cite></p>
+			<p>A chatbot is made from 3 main parts; Intent, Entities and Dialog. These parts help the user and chatbot create conversations that have a natural and organic feel. Watson Assistant comes with premade intents, or you can create your own individual ones.   </p>
+			<img src="img/bot3.jpeg" alt="Mobius">
+			<p><cite>The core of Watson Assistant include Intent, Entities and Dialog (Watson Assistant, 2020).</cite></p>
+			<p>I will be using premade and custom-made intents. Intents are a collection of user statements that have the same meaning. For example, when a user greets the chatbot, these words will be written down under the intent #greeting_us (intents are prefixed with the hash/pound sign). </p>
+			<img src="img/bot4.jpeg" alt="Mobius">
+			<p><cite>Creating the #greeting_us intent.(Watson Assistant, 2020)</cite></p>
+			<p>Users will most probably say Hello, Hey, Hi, G’day, Kia Ora (New Zealand greeting) so these words are provided to Watson. When the user says “Hi,” Mobi will understand the user is greeting it and respond in kind. By creating intents, I can train Mobi the virtual assistant to understand the variety of ways users will speak to it.  </p>
+			<img src="img/bot5.jpeg" alt="Mobius">
+			<p><cite>Watson in training – learning Kia Ora.(Watson Assistant, 2020)</cite></p>
+			<p>I repeated the process for a variety of intents such as #thank_you, #good_bye, #General_Jokes, #Geometry, #General_Human_or_Bot, #products.  </p>
+			<img src="img/bot6.jpeg" alt="Mobius">
+			<p><cite>Creating the #General_Jokes intent.(Watson Assistant, 2020) </cite></p>
+			<p>Next I made an entity. Entities represent information in the user input that is relevant to the user's purpose. If intents represent verbs (the action a user wants to do), entities represent nouns (the object of, or the context for, that action). Recognizing entities in the user's input helps you to craft more useful, targeted responses. I made an entity to recognise the word Pi. Whenever someone enters a sentence about Pi, it responds with a particular answer about Pi.  </p>
+			<img src="img/bot7.jpeg" alt="Mobius">
+			<p><cite>Creating the @Pi entity and testing it.  </cite></p>
+			<p>I linked the entity with the geometry intent from the user. So if a user asks a question about squares, Watson will not respond with an answer about Pi.  </p>
+			<img src="img/bot8.jpeg" alt="Mobius">
+			<p><cite>The #Geometry intent. (Watson Assistant, 2020) </cite></p>
+			<p>However, if the user asks “What is Pi?” or “Tell me a fact about circles,” (I made circles a synonym of Pi – you can make synonyms while creating entities), it will respond with a specific answer about Pi.  </p>
+			<img src="img/bot10.jpeg" alt="Mobius">
+			<p><cite>Testing the @Pi entity. (Watson Assistant, 2020) </cite></p>
+			<p>In order for the user and chatbot to have a conversation, answers to the intents need to be placed in Dialog nodes. Every chatbot has two default dialogs: Welcome and Anything else. The Welcome dialog is the greeting that displays when the user starts the chatbot. Anything else is used as the default response, which is typically some variation of “Sorry, I didn’t understand that.” </p>
+			<img src="img/bot11.jpeg" alt="Mobius">
+			<p><cite>The Dialog nodes. (Watson Assistant, 2020)  </cite></p>
+			<p>To get started, I changed the Welcome dialog message to something befitting a maths AI. Mobi is designed for children, so this prototype is mainly a joke telling chatbot. </p>
+			<img src="img/bot12.jpeg" alt="Mobius">
+			<p><cite>Creating Mobi’s welcome message (Watson Assistant, 2020). </cite></p>
+			<p> I then repeated the process for all the Dialog nodes so that the user will get a response for their enquiries. I created several nodes and child nodes. These nodes work in a similar fashion to if,else statements in programming. For intents with a multiple set answers, I set Watson to ‘random,’ so the user will receive an answer at random.  </p>
+			<img src="img/bot13.jpeg" alt="Mobius">
+			<p><cite>Mobi the virtual assistant. (Watson Assistant, 2020).   </cite></p>
+			<p> Lastly, I linked the IBM Watson Assistant to a prototype website. <a href="https://deemoonwalker.github.io/Mobi/" target="blank">Mobi</a></p>
+			<img src="img/bot15.jpeg" alt="Mobius">
+			<p><cite>Mobi’s website. (GitHub Pages, 2020).  </cite></p>
+			<p>I achieved this by linking a piece of HTML provided by IBM to my prototype website’s HTML.  </p>
+			<h2>IBM CHATBOT CODE:</h2>
+			<img src="img/bot16.jpeg" alt="Mobius">
+			<p>Any updates made to Mobi on IBM’s Cloud is automatically updated on the website. I used GitHub Pages to create a website. This required me to upload the HTML and images to a GitHub repository and link it to a GitHub Page.  </p>
+			<img src="img/bot17.jpeg" alt="Mobius">
+			<p><cite>Chatting with Mobi. (GitHub Pages, 2020).</cite></p>
+			<h2>Testing required: </h2>
+			<p>Through the development of each intent, entity and dialog, I tested Watson Assistant through a ‘Try it out’ tab on the screen. Through these testings, I could re-train Watson and continue to edit and refine Mobi.  </p>
+			<h2>Risks: </h2>
+			<p>IBM Cloud have scheduled planned maintenance of their core infrastructure at varying times, and there have been reports of errors in Watson Assistant. However, these are temporary and fixed quickly, as the assistant is used in professional settings such as banking, online shopping and education. The IBM course to learn how to use Watson Assistant was easy to understand and well curated. However, the further Watson Assistant courses include Python coding, making them much more complicated.  </p>
+			<p></p>
+			<p></p>
+			<p></p>
+		</div>
+
+	</section>
+
+	<section class="quality container">
+		<h2 class="subtitle"> Why choose us?</h2>
+		<img src="img/mobius1.png" alt="Mobius">
+		<ul class="quality_list">
+			<li class="grid-1-3">
+				<h3>Confidence</h3>
+				<p>When kids feel able to accomplish things using maths, it increases their confidence.</p>
+			</li>
+
+			<li class="grid-1-3">
+				<h3>Fun</h3>
+				<p>Learn while you have fun playing games, asking questions to a chatbot.</p>
+			</li>
+
+			<li class="grid-1-3">
+				<h3>Better Grades</h3>
+				<p>Having a better understanding of maths, kids can have better grades at school.</p>
+			</li>
+		</ul>
+		<div class="call-to-action1">
+			<p>Request a call back.</p>
+			<a href="about.html" class="blackbtn">Contact us</a>
+		</div>
+
+	</section>
+
+	<section class="break">
+		<blockquote class="quote-external" container>
+				<p></p>	
+			</blockquote>
+
+	</section>
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+			<div class="grid-8 footer_history">
+				<h3> Our History</h3>
+				<p>Our project aims to help kids to learn maths in a fun and interesting way.</p>
+			</div>	
+			<div class="grid-4 footer_contact">
+				<h3> Contact</h3>
+				<ul>
+					<li>123456789</li>
+					<li>contact@mobius.com.au</li>
+					<li>Sydney/Melbourne - AU</li>
+				</ul>
+			</div>
+			<div class="grid-4 footer_media">
+				<h3>Social Media</h3>
+			<ul>
+				<li><a href="http://www.facebook.com" target="_blank"><img src="img/facebook-small.png"></a></li>
+				<li><a href="http://www.instagram.com" target="_blank"><img src="img/instagram-small.png"></a></li>
+				<li><a href="http://www.twitter.com" target="_blank"><img src="img/twitter-small.png"></a></li>
+			</ul>
+			</div>
+			</div>
+			
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<p class="grid-16">Sample website for Assessment 3 - RMIT University - Nerd Herd group</p>
+			</div>
+			
+		</div>
+	</footer>
+
+	<script>  window.watsonAssistantChatOptions = {
+		integrationID: "69509122-54d3-4e96-8ff4-663a0c5455c3", // The ID of this integration.
+		region: "us-south", // The region your integration is hosted in.
+		serviceInstanceID: "377485d6-2812-460a-822b-66ae2abd90d9", // The ID of your service instance.
+		onLoad: function(instance) { instance.render(); }
+	  };
+	setTimeout(function(){
+	  const t=document.createElement('script');
+	  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+	  document.head.appendChild(t);
+	});
+  </script>   
+
+</body>
+</html>
