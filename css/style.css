@@ -494,3 +494,16 @@ padding: 40px 0;
 	text-align: center;
 	align-items: center;
 }
+.about{
+	margin-bottom: 20px;
+	text-align: center;
+	align-items: center;
+	font-size: 30px;
+}
+.about h2{
+	text-align: center;
+	align-items: center;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
