@@ -439,3 +439,58 @@ padding: 40px 0;
 	padding-bottom: 15px;
 	padding-top: 10px;
 }
+
+/*team*/
+
+.team{
+	padding: 60px 0;
+	
+}
+
+.team h2{
+	color:#84D904;
+}
+
+.team h2::after{
+	color: #056CF2;
+}
+
+.team_list li{
+	background:#056CF2;
+	text-align: center;
+	color: #fff;
+
+}
+
+.team_list li h3 a{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #fff;
+
+}
+
+.team_list li h3::after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #F21D56;
+	margin: 2px auto;
+
+}
+
+.team_list li p {
+	padding: 10px 20px 20px 20px;
+
+}
+
+.team_icons{
+	background: #F21D56;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+}
